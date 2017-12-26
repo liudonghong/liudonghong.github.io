@@ -1,0 +1,19 @@
+{
+  "title": "2014 Intenational Conference in CCNU", 
+  "id": 2, 
+  "start": 0, 
+  "data": [
+    {
+      "alt": "1",
+      "pid": 5,
+      "src": "img/2014IntenationalConference/1.jpg",
+      "thumb": "img/2014IntenationalConference/1.jpg"
+    },
+    {
+      "alt": "2",
+      "pid": 6,
+      "src": "img/2014IntenationalConference/2.jpg",
+      "thumb": "img/2014IntenationalConference/2.jpg"
+    }
+  ]
+}

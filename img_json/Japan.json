@@ -1,0 +1,25 @@
+{
+  "title": "Guangxi University", 
+  "id": 8, 
+  "start": 0, 
+  "data": [
+    {
+      "alt": "1",
+      "pid": 1,
+      "src": "img/Lectures/Japan/1.jpg",
+      "thumb": "img/Lectures/Japan/1.jpg"
+    },
+    {
+      "alt": "2",
+      "pid": 2,
+      "src": "img/Lectures/Japan/2.jpg",
+      "thumb": "img/Lectures/Japan/2.jpg"
+    },
+    {
+      "alt": "3",
+      "pid": 3,
+      "src": "img/Lectures/Japan/3.jpg",
+      "thumb": "img/Lectures/Japan/3.jpg"
+    }
+  ]
+}

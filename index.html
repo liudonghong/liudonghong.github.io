@@ -13,6 +13,8 @@
 		<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 		<!-- Custom styles for this template -->
 		<link href="css/combined-style.min.css" rel="stylesheet">
+		<link href="css/csshake-little.min.css" rel="stylesheet">
+		<link href="css/csshake-slow.min.css" rel="stylesheet">
 	</head>
 
 	<body id="page-top">
@@ -189,20 +191,26 @@
 							</li>
 							<li class="timeline-item">
 								<div class="timeline-marker"></div>
-								<div class="timeline-content">
-									<p>2009年获国家留学基金委全额资助，在美国宾夕法尼亚州立大学“语言习得中心”，师从二语习得中“社会文化学派”奠基人之一James P. Lantolf教授，进行为期一年的访问研究。</p>
+								<div class="timeline-content shake shake-little">
+									<a href="javascript:void(0)" id="vs_penn" onclick="GetPics(this.id);">
+										<p>2009年获国家留学基金委全额资助，在美国宾夕法尼亚州立大学“语言习得中心”，师从二语习得中“社会文化学派”奠基人之一James P. Lantolf教授，进行为期一年的访问研究。</p>
+									</a>
 								</div>
 							</li>
 							<li class="timeline-item">
 								<div class="timeline-marker"></div>
-								<div class="timeline-content">
-									<p>2014年11月负责举办了国际学术会议“第三届国际修辞传播学研讨会”。</p>
+								<div class="timeline-content shake shake-little">
+									<a href="javascript:void(0)" id="2014Conf" onclick="GetPics(this.id);">
+										<p>2014年11月负责举办了国际学术会议“第三届国际修辞传播学研讨会”。</p>
+									</a>
 								</div>
 							</li>
 							<li class="timeline-item">
 								<div class="timeline-marker"></div>
-								<div class="timeline-content">
-									<p>入选2016-2017年“美国富布莱特研究学者”，在美国普度大学英语系做修辞学与写作研究，合作教授是修辞与写作领域领军人物Tony Silva教授。</p>
+								<div class="timeline-content shake shake-slow">
+									<a href="javascript:void(0)" id="vs_purdue" onclick="GetPics(this.id);">
+										<p>入选2016-2017年“美国富布莱特研究学者”，在美国普度大学英语系做修辞学与写作研究，合作教授是修辞与写作领域领军人物Tony Silva教授。</p>
+									</a>
 								</div>
 							</li>
 						</ul>
@@ -348,7 +356,7 @@
 				</div>
 			</section>
 
-			<section style="background-color: #f1f4f5;" class="d-flex flex-column" id="lectures">
+			<section class="d-flex flex-column" id="lectures">
 				<div class="section-title-wrapper">
 					<h2 class="section-title-font">国内外大学讲座</h2>
 				</div>
@@ -357,22 +365,22 @@
 					<div class="container-rounded-list">
 						<ol class="rounded-list">
 							<li>
-								<a href="javascript:void(0)">2017年11月韩国外国语大学（首尔）做讲座“Study of Persuasive Rhetorical Strategies Driven By Cultural Values”</a>
+								<a href="javascript:void(0)" id="SouthKorea" onclick="GetPics(this.id);">2017年11月韩国外国语大学（首尔）做讲座“Study of Persuasive Rhetorical Strategies Driven By Cultural Values”</a>
 							</li>
 							<li>
-								<a href="javascript:void(0)">2017年8月美国爱荷华州Kirkwood Community College做讲座“Rhetoric between Chinese and English：Perception and Difference”</a>
+								<a href="javascript:void(0)" id="KirkwoodCommunityCollege" onclick="GetPics(this.id);">2017年8月美国爱荷华州Kirkwood Community College做讲座“Rhetoric between Chinese and English：Perception and Difference”</a>
 							</li>
 							<li>
-								<a href="javascript:void(0)">2017年5月美国宾州哈里斯堡Shippensburg University 做讲座“Cultural Perception of Higher Education between China and America: When East meets West”和“Comparison of Paragraph Rhetoric between Chinese and English”</a>
+								<a href="javascript:void(0)" id="shippensburg" onclick="GetPics(this.id);">2017年5月美国宾州哈里斯堡Shippensburg University 做讲座“Cultural Perception of Higher Education between China and America: When East meets West”和“Comparison of Paragraph Rhetoric between Chinese and English”</a>
 							</li>
 							<li>
-								<a href="javascript:void(0)">2017年3月美国加州洛杉矶Antelope Valley College 做讲座“Comparison of College Education between China and America”</a>
+								<a href="javascript:void(0)" id="AntelopeValleyCollege" onclick="GetPics(this.id);">2017年3月美国加州洛杉矶Antelope Valley College 做讲座“Comparison of College Education between China and America”</a>
 							</li>
 							<li>
-								<a href="javascript:void(0)">2016年7月日本札幌大学讲座“第二语言学习的特点与学习者个体差异”和“语言环境与课堂教学”</a>
+								<a href="javascript:void(0)" id="Japan" onclick="GetPics(this.id);">2016年7月日本札幌大学讲座“第二语言学习的特点与学习者个体差异”和“语言环境与课堂教学”</a>
 							</li>
 							<li>
-								<a href="javascript:void(0)">2016年5月 广西大学讲座“修辞学理论与英语写作的应用研究”</a>
+								<a href="javascript:void(0)" id="GuangxiUniversity" onclick="GetPics(this.id);">2016年5月 广西大学讲座“修辞学理论与英语写作的应用研究”</a>
 							</li>
 							<li>
 								<a href="javascript:void(0)">2015年11月华中师范大学讲座“写作修辞学漫谈”</a>
@@ -386,6 +394,9 @@
 						</ol>
 					</div>
 				</div>
+
+					<!--<a href="javascript:void(0)" id="myLink" onclick="MyFunction();">123</a>-->
+					
 			</section>
 		</div>
 
@@ -396,6 +407,32 @@
 		<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 		<!-- Custom scripts for this template -->
 		<script src="js/resume.js"></script>
+
+		<!--<script src="http://cdn.bootcss.com/jquery/1.12.3/jquery.min.js"></script>-->
+		<script src="layer/layer.js"></script>
+
+		<script>
+			function GetPics(id) {
+//				console.log(id);
+				fullURL = "img_json/" + id + ".json";
+				$.ajax({
+					url: fullURL,
+					type: "get",
+					dataType: "json",
+					success: function(json) {
+						console.log(json);
+						layer.photos({
+							photos: json,
+							anim: 5 //0-6
+						});
+					},
+					error: function(xhr, textStatus, errorThrown) {
+						console.log(xhr.responseText + ", " + xhr.status + ", " + textStatus);
+					}
+				});
+			}
+		</script>
+
 	</body>
 
 </html>
