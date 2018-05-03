@@ -11,7 +11,7 @@
 
     <title>
         
-        
+        我院刘东虹教授应邀赴日本札幌大学讲学 - undefined
         
     </title>
 
@@ -45,7 +45,8 @@
 <div class="nav" id="nav">
     <div class="avatar-name">
         <div class="avatar">
-            <img src="/" />
+            <!-- <img src="/" /> -->
+            <img src="https://liudonghong.github.io/img/avatar.jpg">
         </div>
         <div class="name">
             <i>刘东虹</i>
@@ -56,37 +57,41 @@
             <li >
                 <a href="/">
                     <i class="iconfont icon-shouye1"></i>
-                    <span>HOME</span>
+                    <span>主页</span>
                 </a>
             </li>
             <li >
                 <a href="/tags">
                     <i class="iconfont icon-biaoqian1"></i>
-                    <span>TAGS</span>
+                    <span>标签</span>
                 </a>
             </li>
-            <li  class=active >
+            <li >
                 <a href="/archives">
                     <i class="iconfont icon-guidang2"></i>
-                    <span>ARCHIVES</span>
+                    <span>新闻</span>
                 </a>
             </li>
             <li >
                 <a href="/about/">
                     <i class="iconfont icon-guanyu2"></i>
-                    <span>ABOUT</span>
+                    <span>简历</span>
                 </a>
             </li>
             
             <li>
                 <a id="search">
                     <i class="iconfont icon-sousuo1"></i>
-                    <span>SEARCH</span>
+                    <span>搜索</span>
                 </a>
             </li>
             
         </ul>
     </div>
+    
+        <div id="toc" class="toc-article">
+    
+</div>
     
 </div>
 
@@ -96,7 +101,7 @@
         <div class="search-input">
             <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
             <input id="search-input"/>
-            <span id="begin-search">search</span>
+            <span id="begin-search">搜索</span>
         </div>
         <div class="search-result-container" id="search-result-container">
 
@@ -113,35 +118,28 @@
         
 
 
-<!-- 归档列表 -->
+<div class="post-container">
+    <div class="post-title">
+        我院刘东虹教授应邀赴日本札幌大学讲学
+    </div>
 
-<div class="archives-container">
-
-<div class="one-tag-list">
-                <span class="fa fa-calendar-times-o listing-seperator" id="2018">
-                    <span class="tag-text">2018</span>
-                </span>
-    <ul>
+    <div class="post-meta">
+        <span class="attr">发布于：<span>2016-07-31 00:00:00</span></span>
         
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>05-02</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/2018/05/02/hello-world/">
-                        <span>
-                            Hello World
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
+        </span>
+        <span class="attr">访问：<span id="busuanzi_value_page_pv"></span>
+</span>
+</span>
+    </div>
+    <div class="post-content ">
+        <p>2016年7月31日我院刘东虹教授应日本札幌大学之邀，在该校孔子学院办公楼为汉语教师和学生们做了两场“第二语言习得”方面的讲座。讲座题目为“第二语言学习的特点与学习者个体差异”和“语言环境与课堂教学”。</p>
+<p>讲座一开始，札幌大学文化学院教授、孔子学院日方院长张伟雄博士对刘东虹教授的研究成果进行了详细介绍。讲座中刘教授对理论的介绍深入浅出，并辅以例证分析，生动有趣。讲座使师生们正确、清晰地认识到老师在课堂上进行的言语活动的重要性，有利于他们在从事第二语言教学时恰当地设计教学内容和教学活动。讲座期间气氛活跃、温馨，演讲者和听众之间不断互动。讲座结束后，刘东虹教授和师生们进行了座谈，解答了老师们的疑问，并进一步交流了二语习得和教学方面的感受。</p>
+<p> <img src="https://image-1256647083.cos.ap-guangzhou.myqcloud.com/blogImage/2016.7/1.jpg" alt=""></p>
+
         
-
-    </ul>
-</div>
-
+        <div id="comment-container">
+        </div>
+    </div>
 </div>
     </div>
 </div>
@@ -181,7 +179,7 @@
     // We expose some of the variables needed by the front end
     window.hexo_search_path = "search.xml"
     window.hexo_root = "/"
-    window.isPost = false
+    window.isPost = true
 </script>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="/js/index.js"></script>
